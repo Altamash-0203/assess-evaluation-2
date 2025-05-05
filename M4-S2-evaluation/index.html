@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styel.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="nav">
+            <a id="nava" href="">Home</a>
+            <a id="nava" href="">profile</a>
+            <a id="nava" href="data.html">Data</a>
+        </div>
+    </nav>
+
+
+    <!-- form -->
+     <div class="input">
+
+    
+<form action="">
+    <label for="name">Enter name:</label> <br>
+    <input type="text" id="name" placeholder="Enter Your Name"> <br><br>
+
+    <label for="age">Enter Age:</label><br>
+    <input type="text" id="age" placeholder="Enter Your Age"> <br><br>
+
+    <label for="mail">Enter Email:</label><br>
+    <input type="text" id="mail" placeholder="Enter Your Email"> <br><br>
+
+    <label for="Course">Select Course:</label>
+    <select name="Course" id="course">
+        <option value="FTSD">FTSD</option>
+        <option value="FTSD">PTSD</option>
+        <option value="FTSD">FTDS</option>
+        <option value="FTSD">PTDS</option>
+    </select> <br> <br>
+
+    
+      <label for="gender">Gender</label>
+      <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select> <br> <br>
+
+    <label for="pic">Upload Image:</label> <br>
+    <input type="file" id="pic" name="pic" accept> <br><br>
+
+    <button id="submit" onclick="SubmitFun()">Submit</button><br>
+
+</form>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

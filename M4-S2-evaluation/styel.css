@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.nav{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nava{
+ text-decoration: none;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-transform: capitalize;
+ color:dodgerblue;
+}
+
+#nava:hover{
+    text-decoration: underline red;
+}
+
+.input{
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+font-size: x-large;
+font-family: monospace;
+color: rgb(255, 74, 158);
+}
+
+.input form {
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    border: 2px rgb(135, 125, 135)  solid;
+    border-radius: 100px 0px 100px 0px;
+}
+
+#submit{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px 0 10px 0;
+    background-color: rgb(74, 126, 249);
+    color: white;
+    font-size: x-large;
+}
